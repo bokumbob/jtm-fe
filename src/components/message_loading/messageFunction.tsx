@@ -54,7 +54,7 @@ export const messagePost = async (
           email: email,
         },
         paper: {
-          paperId: 1,
+          paperId: 6005,
         },
         message: {
           content: content,
@@ -97,7 +97,7 @@ export const messageFix = async (text: string, messageId: string) => {
       message: {
         content: text,
         font: '굴림',
-        color: '#333',
+        color: '#a72727',
       },
     },
   });
@@ -119,14 +119,19 @@ export const messageFixOrDelete = async (
   }
 };
 
-export const stickerPost = async (email: string, x: number, y: number) => {
+export const stickerPost = async (
+  email: string,
+  x: number,
+  y: number,
+  stickerNum: number
+) => {
   try {
     const q = await axios({
       method: 'post',
       url: `${EnvConfig.LANTO_SERVER}sticker`,
       data: {
         user: {
-          email: 'jam@gmail.com',
+          email: 'merge@gmail.com',
         },
         paper: {
           paperId: 6005,
@@ -134,7 +139,7 @@ export const stickerPost = async (email: string, x: number, y: number) => {
         sticker: {
           positionX: x.toString(),
           positionY: y.toString(),
-          kind: 3,
+          kind: stickerNum,
         },
       },
     });
