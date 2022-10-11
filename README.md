@@ -7,7 +7,7 @@
 <br>
 노션 페이지 - https://www.notion.so/6435598d99634b4d88de9983ea12df43
 
-<img width="70%" src="https://github.com/bokumbob/jtm-fe/issues/2#issue-1404166713.gif" />
+<img width="70%" src="https://user-images.githubusercontent.com/88585464/195030141-376801b6-80a6-4f1c-834d-f40f7ed7c6a3.gif" />
 
 ###  how to run project
 
