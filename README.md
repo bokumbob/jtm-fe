@@ -7,6 +7,8 @@
 <br>
 노션 페이지 - https://www.notion.so/6435598d99634b4d88de9983ea12df43
 
+<img src="https://github.com/bokumbob/jtm-fe/issues/2#issue-1404166713" width="70%" />
+
 ###  how to run project
 
 1. `git clone https://github.com/pullingoff/jtm-fe.git` : 깃허브 저장소 클론
